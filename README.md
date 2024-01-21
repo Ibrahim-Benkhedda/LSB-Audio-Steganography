@@ -14,3 +14,23 @@ it enhances the security and minimizes the detectability of the encoded data.
 **LSBAudioSteganography**: Base class for audio processing and bit manipulation.
 **LSBAudioEncoder**: Subclass for message encoding using pseudorandom LSB.
 **LSBAudioDecoder**: Subclass for message decoding, matching the encoding pattern.
+
+# Usage 
+```python
+from lsb import LSBAudioSteganography
+from lsb_encoder import LSBAudioEncoder
+from lsb_decoder import LSBAudioDecoder
+
+secret_message = "I would tell you a UDP joke, but you might not get it."
+audio_filepath = "example_audio.wav"
+output_audio_filepath = "embedded_audio.wav"
+
+# For Encoding
+encoder = LSBAudioEncoder(audio_filepath)
+encoder.encode(secret_message, 42, output_audio_filepath)
+
+# For Decoding
+decoder = LSBAudioDecoder(output_audio_filepath)
+decoded_message = decoder.decode(42, len(secret_message))
+print("Decoded message:", decoded_message)
+```
