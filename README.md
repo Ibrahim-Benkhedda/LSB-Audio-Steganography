@@ -34,3 +34,9 @@ decoder = LSBAudioDecoder(output_audio_filepath)
 decoded_message = decoder.decode(42, len(secret_message))
 print("Decoded message:", decoded_message)
 ```
+
+# Dependencies
+This project relies on the following external libraries:
+
+- **wave** - Standard Python library for reading and writing WAV files.
+- **numpy** (version 1.19 or later) - Used for mathematical operations on audio data.
