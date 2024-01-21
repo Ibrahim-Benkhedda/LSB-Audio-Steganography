@@ -42,5 +42,6 @@ This project relies on the following external libraries:
 - **numpy** (version 1.19 or later) - Used for mathematical operations on audio data.
 
 # Acknowledgement
-LSB implementation was inspired by the following [article]([https://link-url-here.org](https://sumit-arora.medium.com/audio-steganography-the-art-of-hiding-secrets-within-earshot-part-2-of-2-c76b1be719b3)https://sumit-arora.medium.com/audio-steganography-the-art-of-hiding-secrets-within-earshot-part-2-of-2-c76b1be719b3)
+LSB implementation was inspired by the following LSB implementation was inspired by the following [article](https://sumit-arora.medium.com/audio-steganography-the-art-of-hiding-secrets-within-earshot-part-2-of-2-c76b1be719b3).
+
 
