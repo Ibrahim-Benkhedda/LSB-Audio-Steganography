@@ -17,7 +17,6 @@ it enhances the security and minimizes the detectability of the encoded data.
 
 # Usage 
 ```python
-from lsb import LSBAudioSteganography
 from lsb_encoder import LSBAudioEncoder
 from lsb_decoder import LSBAudioDecoder
 
